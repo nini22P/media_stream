@@ -1,7 +1,9 @@
 name: media_stream
 description: "A server to stream media from FTP and SMB via HTTP."
 version: 0.0.1
-homepage:
+homepage: https://github.com/nini22P/media_stream
+repository: https://github.com/nini22P/media_stream
+issue_tracker: https://github.com/nini22P/media_stream/issues
 
 environment:
   sdk: ^3.7.0
