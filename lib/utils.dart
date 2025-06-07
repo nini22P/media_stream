@@ -9,9 +9,9 @@ int getDynamicChunkSize(int fileSizeInBytes) {
   if (fileSizeInBytes < 10 * megabyte) {
     return fileSizeInBytes;
   } else if (fileSizeInBytes < 1 * gigabyte) {
-    return 5 * megabyte;
+    return 3 * megabyte;
   } else {
-    return 10 * megabyte;
+    return 5 * megabyte;
   }
 }
 
